@@ -2,9 +2,29 @@
 // PARTE 1: PROGRAMAÇÃO ESTRUTURADA EM JS
 // ==========================================
 
+//informações cachorro 1
+let nomeCachorro1 = "Nelson"
+let comidaCachorro1 = 3 //argumento (valor enviado para a função)
+let sonoCachorro1 = false
 
-// Digitar o código (Feito pelo Professor - AQUI)
+//informações cachorro 2
+let nomeCachorro2 = "Jeremias"
+let comidaCachorro2 = 1 //argumento (valor enviado para a função)
+let sonoCachorro2 = true
 
+//parametro: informação que a função precisa para funcionar
+function comer(quantidadeComida){
+    return quantidadeComida -1
+}
+
+//esta função não precisa de parametro para seu funcionamento
+function dormir(sono){
+    return true
+}
+
+//usando as funções (functions)
+comidaCachorro1 = comer(comidaCachorro1)
+sonoCachorro2 = dormir()
 
 // Exibindo os resultados no navegador
 document.body.innerHTML = `
